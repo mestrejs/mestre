@@ -1,0 +1,9 @@
+{
+  "name": "mestre",
+  "version": "0.0.1",
+  "description": "Fabulous Web Application Boilerplate and Scaffolding Tool",
+  "main": "index.js",
+  "repository": "https://mestrejs@github.com/mestrejs/mestre.git",
+  "author": "mestrejs <victor@hugesuccess.io>",
+  "license": "MIT"
+}
