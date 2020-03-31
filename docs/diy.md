@@ -32,7 +32,7 @@ Meh unicorn YOLO, yuccie lumbersexual DIY pabst tofu heirloom vice you probably 
 
 **app.jsx**
 
-```
+```JavaScript
 
 import React, { Component } from "react";
 
