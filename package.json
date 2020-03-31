@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://mestrejs@github.com/mestrejs/mestre.git",
   "author": "mestrejs <victor@hugesuccess.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  }
 }
