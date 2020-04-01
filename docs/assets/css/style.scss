@@ -42,7 +42,7 @@ $gold: #EFA500;
   }
 
   .no-padding {
-    padding: 0;
+    padding: 0 !important;
   }
 
   ul {
@@ -87,4 +87,15 @@ aside {
       }
     }
   }
+}
+
+.colortron {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+  background-repeat: repeat;
+  z-index: 1000; 
+  height: 5px;
+  width: 200vw;
 }
