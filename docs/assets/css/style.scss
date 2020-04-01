@@ -70,13 +70,14 @@ aside {
   height: 100vh;
   overflow: auto;
   background-color: $mute;
-  border-right: $light-grey;
+  border-right: 1px solid $light-grey;
 
   ul {
     list-style-type: none;
 
     li {
       height: 50px;
+      color: black;
     }
   }
 }
