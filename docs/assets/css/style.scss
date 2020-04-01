@@ -77,7 +77,10 @@ aside {
 
     li {
       height: 50px;
-      color: black;
+
+      a {
+        color: black;
+      }
     }
   }
 }
