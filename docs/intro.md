@@ -58,7 +58,7 @@ for the best tool to be an optimization fallacy"
 * Dead simple Routing
 
 **Routes.tsx**
-```JSX
+```jsx
 // An Example Route Config
 // Conceptually similar to Routes.rb
 // But, actually completely different IRL
