@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 $dark-blue: "#161B40";
+$light-blue: "#42BEE5";
 
 .logo {
   font-family: 'Abril Fatface', cursive;
@@ -13,5 +14,20 @@ $dark-blue: "#161B40";
 .main-section {
   padding: "40px";
   height: "100vh";
-  background-color: $dark-blue;
+  background-color: $dark-blue !important;
+
+  h1 {
+
+    em {
+      color: $light-blue;
+    }
+  }
+
+  h2 {
+
+  }
+
+  h3 {
+
+  }
 }
