@@ -80,7 +80,7 @@ Pabst aesthetic gluten-free, kitsch hexagon sustainable tousled roof party knaus
 Pabst aesthetic gluten-free, kitsch hexagon sustainable tousled roof party knausgaard. Venmo vice messenger bag actually, 3 wolf moon disrupt farm-to-table wayfarers chicharrones man braid cold-pressed man bun butcher. Hot chicken meditation banjo you probably haven't heard of them, locavore photo booth air plant williamsburg. Semiotics drinking vinegar tattooed cornhole shaman chicharrones organic, YOLO stumptown cray kale chips helvetica freegan franzen. Before they sold out trust fund jean shorts small batch banh mi activated charcoal +1 ugh, bitters waistcoat keytar sustainable. Shoreditch normcore unicorn authentic.
 
 **styles.json**
-```
+```json
 {
   "number": {
     "fontSize": "2em",
