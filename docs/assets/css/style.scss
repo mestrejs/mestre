@@ -18,10 +18,10 @@ $gold: "#EFA500";
   color: red;
   background-color: #161B40;
 
-  h1 {
+  h1:not(.logo) {
 
     em {
-      color: $light-blue;
+      color: #42BEE5;
     }
   }
 
