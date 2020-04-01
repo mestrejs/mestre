@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-$dark-blue: "#161B40";
-$light-blue: "#42BEE5";
-$gold: "#EFA500";
+$dark-blue: #161B40;
+$light-blue: #42BEE5;
+$gold: #EFA500;
 
 .logo {
   font-family: 'Abril Fatface', cursive;
@@ -15,18 +15,18 @@ $gold: "#EFA500";
 .main-section {
   padding: 40px;
   height: 100vh;
-  color: red;
+  color: white;
   background-color: #161B40;
 
   h1:not(.logo) {
 
     em {
-      color: #42BEE5;
+      color: $light-blue;
     }
   }
 
   h2 {
-    color: green;
+    color: $gold;
   }
 
   h3 {
