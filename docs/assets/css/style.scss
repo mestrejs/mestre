@@ -7,6 +7,7 @@
 $dark-blue: #161B40;
 $light-blue: #42BEE5;
 $light-grey: #DCDCDC;
+$mute: #f7f7f7;
 $gold: #EFA500;
 
 .logo {
@@ -68,6 +69,8 @@ aside {
   width: 100%;
   height: 100vh;
   overflow: auto;
+  background-color: $mute;
+  border-right: $light-grey;
 
   ul {
     list-style-type: none;
