@@ -135,10 +135,12 @@ With this heuristic, you start making all your choices
 based on your defaults. You would only deviate from your
 defaults if you realize you absolutely have to.
 
-> <p style="float: right; margin-top: 30px;">Daniel Vassallo & Josh Pschorr</p>
+> Daniel Vassallo & Josh Pschorr
 
-> <p style="float: right; clear:both;"><a href="https://gumroad.com/l/aws-good-parts">The Good Parts of AWS</a></p>
+> <a href="https://gumroad.com/l/aws-good-parts">The Good Parts of AWS</a>
 > 
+
+<hr />
 
 * referring to server archetecture, but makes sense for picking front-end frameworks
 
