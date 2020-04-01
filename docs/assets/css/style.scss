@@ -34,6 +34,17 @@ $gold: #EFA500;
   h3 {
     color: #DCDCDC;
   }
+
+  ul {
+    
+    li {
+      float: left;
+      
+      img {
+        width: 40px;
+      }
+    }
+  }
 }
 
 .triangle {
@@ -41,5 +52,5 @@ $gold: #EFA500;
   height: 0;
   border-style: solid;
   border-width: 100vh 7vw 0 0;
-  border-color: #161B40 transparent transparent transparent;
+  border-color: $dark-blue transparent transparent transparent;
 }
