@@ -6,6 +6,7 @@
 
 $dark-blue: #161B40;
 $light-blue: #42BEE5;
+$light-grey: #DCDCDC;
 $gold: #EFA500;
 
 .logo {
@@ -32,7 +33,7 @@ $gold: #EFA500;
   }
 
   h3 {
-    color: #DCDCDC;
+    color: $light-grey;
   }
 
   ul {
@@ -43,6 +44,7 @@ $gold: #EFA500;
       
       img {
         width: 40px;
+        margin: 10px;
       }
     }
   }
@@ -63,5 +65,9 @@ aside {
 
   ul {
     list-style-type: none;
+
+    li {
+      height: 50px;
+    }
   }
 }
