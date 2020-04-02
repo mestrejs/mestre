@@ -44,7 +44,6 @@
         </aside>
       </div>
       <div class="col-sm-9 no-padding content-section">
-        <div class="colortron"></div>
         <header class="page-header" role="banner">
           <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -58,6 +57,7 @@
         </header>
 
         <main id="content" class="main-content grid" role="main">
+          <div class="colortron"></div>
           {{ content }}
 
           <footer class="site-footer">
