@@ -50,6 +50,7 @@ $gold: #EFA500;
     height: 100px;
     width: 90%;
     background-image: url('/mestre/assets/images/framework-list2.png');
+    background-repeat: repeat-x;
     background-size: auto 100%;
     animation-name: MOVE-IMG;
     animation-duration: 35s;
@@ -105,10 +106,10 @@ $gold: #EFA500;
 
 @keyframes MOVE-IMG {
   0% {
-    transform: translateX(0);
+    background-position: 0;
   }
   100% { 
-    transform: translateX(100%); 
+    background-position: 100%;
   }
 }
 
