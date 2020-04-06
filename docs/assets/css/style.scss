@@ -35,6 +35,7 @@ $gold: #EFA500;
 
   h3 {
     color: $light-grey;
+    font-weight: 100;
   }
 
   .pure-button {
@@ -48,7 +49,8 @@ $gold: #EFA500;
   .framework-list {
     height: 100px;
     width: 90%;
-    background-image: url('/assets/images/framework-list.png');
+    background-image: url('/mestre/assets/images/framework-list2.png');
+    background-size: auto 100%;
     
   }
 }
