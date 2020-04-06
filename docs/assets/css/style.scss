@@ -51,7 +51,10 @@ $gold: #EFA500;
     width: 90%;
     background-image: url('/mestre/assets/images/framework-list2.png');
     background-size: auto 100%;
-    
+    animation-name: MOVE-IMG;
+    animation-duration: 35s;
+    animation-timing-function: linear;  
+    animation-iteration-count: infinite;
   }
 }
 
@@ -98,6 +101,17 @@ $gold: #EFA500;
     transform: rotate(-12deg) translateY(-1280px); 
   }
 }
+
+
+@keyframes MOVE-IMG {
+  0% {
+    transform: translateX(0);
+  }
+  100% { 
+    transform: translateX(100%); 
+  }
+}
+
 
 /* Default Theme Styles */
 
