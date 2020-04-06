@@ -45,17 +45,10 @@ $gold: #EFA500;
     padding: 0 !important;
   }
 
-  ul {
-    list-style-type: none;
-    
-    li {
-      float: left;
-      
-      img {
-        width: 40px;
-        margin: 10px;
-      }
-    }
+  .framework-list {
+    background-color: red;
+    height: 100px;
+    width: 80%;
   }
 }
 
