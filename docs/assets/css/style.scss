@@ -85,9 +85,21 @@ $gold: #EFA500;
   top: -25%;
   left: -100%;
   z-index: 2;
-  /* display: none; */
-  /* left: -50px; */
+  transform: rotate(-12deg);
   background-size: 800px auto;
+  animation-name: MOVE-BG;
+  animation-duration: 35s;
+  animation-timing-function: linear;  
+  animation-iteration-count: infinite;
+}
+
+@keyframes MOVE-BG {
+  0% {
+    transform: rotate(-12deg) translateY(0);
+  }
+  100% { 
+    transform: rotate(-12deg) translateY(-1280px); 
+  }
 }
 
 /* Default Theme Styles */
