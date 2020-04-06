@@ -59,23 +59,34 @@ $gold: #EFA500;
   }
 }
 
+.animation-section {
+  position: relative;
+  overflow: hidden;
+}
+
 .triangle {
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 100vh 7vw 0 0;
+  border-color: #161B40 transparent transparent transparent;
   border-color: $dark-blue transparent transparent transparent;
+  z-index: 10000;
+  position: absolute;
+  top: 0;
 }
 
-.background-image {
-  background-image:url('http://tailwindui.com/img/hero-pattern-lg.png');
-  background-color:red;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  top: 0;
-  left: 0;
-
+.background-scroll {
+  background-image: url(https://tailwindui.com/img/hero-pattern-lg.png);
+  width: 400%;
+  height: 400%;
+  position: absolute;
+  top: -25%;
+  left: -100%;
+  z-index: 2;
+  /* display: none; */
+  /* left: -50px; */
+  background-size: 800px auto;
 }
 
 /* Default Theme Styles */
