@@ -67,6 +67,15 @@ $gold: #EFA500;
   border-color: $dark-blue transparent transparent transparent;
 }
 
+.background-image {
+  background-image:url('http://tailwindui.com/img/hero-pattern-lg.png');
+  width: 200%;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
 /* Default Theme Styles */
 
 aside {
