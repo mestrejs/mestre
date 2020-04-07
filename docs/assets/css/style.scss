@@ -151,6 +151,14 @@ aside {
 
 .content-section {
   overflow:hidden !important;
+
+  h1 {
+    color: $dark-blue;
+  }
+
+  h3 {
+    color: $gold;
+  }
 }
 
 .dark-blue {
