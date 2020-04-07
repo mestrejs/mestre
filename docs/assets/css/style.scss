@@ -118,12 +118,13 @@ $gold: #EFA500;
 /* Default Theme Styles */
 
 aside {
-  width: 100%;
+  width: 25%;
   height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
   overflow: auto;
+  z-index: 20000000;
   background-color: $mute;
   border-right: 1px solid $light-grey;
 
