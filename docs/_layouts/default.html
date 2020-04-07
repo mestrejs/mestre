@@ -25,7 +25,7 @@
     <div class="row">
       <div class="col-sm-3 pure-menu" style="padding: 0 !important;">
         <aside>
-          <h1 class="logo pure-menu-heading">Mestre</h1>
+          <a href="/mestre" class="logo pure-menu-heading">Mestre</a>
           <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="/mestre/" class="pure-menu-link">Home</a></li>
             <li class="pure-menu-item"><a href="/mestre/intro" class="pure-menu-link">Introduction</a></li>
@@ -64,15 +64,12 @@
     </div>
 
     <script>
-      console.log("TRACING!!!")
       const colortron = document.getElementsByClassName("colortron")[0];
 
       window.addEventListener("scroll", function() {
-        console.log(setScrollPercentage());
         let offset = setScrollPercentage();
         colortron.style.transform = `translateX(-${offset}%)`;        
       })
-      
 
       function setScrollPercentage() {
          const page = document.getElementById("content");
