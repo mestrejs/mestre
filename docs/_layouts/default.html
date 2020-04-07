@@ -45,7 +45,7 @@
         </aside>
       </div>
       <div class="col-sm-9 no-padding content-section" style="padding: 0 !important;">
-          <div class="colortron"></div>
+        <div class="colortron"></div>
 
         <main id="content" class="main-content grid" role="main">
 
@@ -65,8 +65,12 @@
 
     <script>
       console.log("TRACING!!!")
+      const colortron = document.getElementsByClassName("colortron")[0];
+
       window.addEventListener("scroll", function() {
         console.log(setScrollPercentage());
+        let offset = setScrollPercentage();
+        colortron.style.transform = `translateX(${offset}%)`;        
       })
       
 
