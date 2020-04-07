@@ -65,6 +65,17 @@
 
     <script>
       console.log("TRACING!!!")
+      window.addEventListener("scroll", function() {
+        console.log(setScrollPercentage());
+      })
+      
+
+      function setScrollPercentage() {
+         const page = document.getElementById("content");
+         const pageheight = page.offsetHeight         
+    
+         return (( window.pageYOffset / pageheight ) / 2) * 100;
+      }
     </script>
   </body>
 </html>
